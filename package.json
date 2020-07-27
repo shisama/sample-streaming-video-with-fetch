@@ -1,0 +1,27 @@
+{
+  "name": "sample-streaming-video-with-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/sample-streaming-video-with-fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shisama/sample-streaming-video-with-fetch/issues"
+  },
+  "homepage": "https://github.com/shisama/sample-streaming-video-with-fetch#readme",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "blob-to-buffer": "^1.2.8",
+    "express": "^4.17.1"
+  }
+}

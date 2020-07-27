@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample of Fetch Upload Streaming</title>
+    <meta name="description" content="Streaing media requests with fetch API">
+    <link id="favicon" rel="icon" href="https://shisama.dev/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Sample of Fetch Upload Streaming</h1>
+    <p>
+      This is a sample page to send video stream body with fetch API.
+    </p>
+    <div>
+      file name: <input type="text" value="some_file_name" id="filename"/>
+    </div>
+    <div>
+      timeslice: <input type="number" value="1000" id="timeslice"/> ms
+    </div>
+    <div>
+      <button id="start">
+        Recording Start
+      </button>
+      <button id="stop">
+        Recording Stop
+      </button>
+      <button id="reload">
+        Reload Page
+      </button>
+    </div>
+    <video width="400" height="300"></video>
+  </body>
+</html>
